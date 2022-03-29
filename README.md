@@ -1,4 +1,4 @@
-# Testes automatizados com JUnit
+# Projeto Cálculo da Folha de Pagamento de Funcionários
 
 Este projeto foi gerado para simular  um controle de funcionários, reajustes salariais e cálculo de bônus. Nele, iniciamos com duas classes: 
 Funcionário e BonusService. A primeira (Funcionario) representa um funcionário dentro de uma empresa, reunindo dados como nome, data de admissão (dataAdmissao) 
@@ -6,6 +6,8 @@ e salário (salario). Além de ter um constructor para receber essas três infor
 que executa uma regra de negócio da aplicação, que é a de calcular o bônus a ser recebido por um funcionário.
 Vamos começar testando o cenário em que o salário do funcionário é muito alto e o seu bônus ultrapassa mil reais. Conforme a classe BonusService, 
 essa pessoa não tem direito a bônus.
+
+# Testes automatizados com JUnit
 
 É aqui que entra o **JUnit**, que se tornou a biblioteca padrão por ser amplamente utilizada para a escrita de testes automatizados em linguagem Java.
 
